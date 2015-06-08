@@ -1,0 +1,360 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+	background: url(body_bg.gif);
+}
+
+.container {
+	width: 1010px;
+	margin: 0px auto;
+	padding-bottom: 15px;
+}
+
+a {
+	text-decoration:none;
+}
+
+/* ===================================== HEADER ===================================== */
+header {
+	background: url(header-bg.jpg) repeat-x;
+}
+
+.container.header {
+	min-height: 63px;
+}
+
+			/* ==================== HEADER-LOGO ==================== */
+.header-logo  {
+	float: left;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.header-logo a {
+	background: url(logo.jpg);
+	width: 260px;
+	height: 55px;
+	display: block;
+}
+
+			/* ==================== HEADER-WIDGET-SEARCH ==================== */
+.header-widget-search{
+	margin-top: 10px;
+	margin-left: 40px;
+	float: left;
+	display: inline-block;
+}
+
+.header-widget-search form {
+	float: left;
+	margin: 6px 0px;
+}
+
+.header-widget-search form input[type=text]{
+	float: left;
+	width: 270px;
+	height: 20px;
+	border: none;
+	border-radius: 100px;
+	padding: 8px 34px 8px 16px;
+}
+
+.header-widget-search form input[type=image]{
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	margin-left: -34px;
+	margin-top: 3px;
+}
+
+			/* ==================== HEADER-WIDGET-USER ==================== */
+.header-widget-user {
+	float: right;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.header-widget-user div {
+	background: url(widget-user.png) no-repeat;
+	width: 331px;
+	height: 38px;
+	margin-top: 5px;
+}
+
+.header-widget-user div a#button-register {
+	float:left;
+	width: 79px;
+	height: 38px;
+}
+
+.header-widget-user div a#button-login {
+	float:left;
+	width: 79px;
+	height: 38px;
+}
+
+.header-widget-user div a#button-loginbyfacebook {
+	float:right;
+	width: 161px;
+	height: 38px;
+}
+
+/* ===================================== NAVIGATION ===================================== */
+
+nav {
+	background: url(nav-bg.jpg) repeat-x;
+}
+
+.container.nav {
+	padding-top:4px;
+}
+
+.container.nav ul {
+	font: 20px/22px "UTMCafetaRegular";
+	color: white;
+	list-style: none;
+	float: left;
+	font-size: 14px;
+}
+
+.container.nav ul li {
+	float: left;
+	padding: 9px 15px 9px 15px;
+}
+
+.container.nav ul li:hover{
+	background: black
+}
+
+.container.nav ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+
+/* ===================================== SLIDESHOW ===================================== */
+div#slideshow {
+	margin-bottom: 15px;
+}
+
+.slideshow {
+	width: 980px;
+	height: 295px;
+	background: black;
+	padding: 15px;
+}
+
+h2 {
+	color: yellow;
+	margin-bottom: 5px;
+}
+
+.slideshow ul {
+	list-style: none;
+}
+
+.slideshow ul li {
+	float: left;
+	margin-right: 26px;
+}
+
+.slideshow ul li img {
+	width: 225px;
+	height: 295px;
+}
+
+.slideshow ul li#end {
+	margin-right: 0px;
+}
+
+
+/* ===================================== MAIN CONTENT ===================================== */
+.maincontent {
+}
+
+.content {
+	display: block;
+	float: left;
+	width: 680px;
+	margin-right: 10px;
+}
+
+.phimdangcapnhat {
+	margin-bottom: 10px;
+}
+
+.phimdangcapnhat .phimdangcapnhatleft {
+	width: 300px;
+	height: auto;
+	float: left;
+	margin-right: 10px;
+}
+
+.phimdangcapnhat .phimdangcapnhatright {
+	width: auto;
+	float: right;
+	height: auto;
+}
+
+.phimdangcapnhat .phimdangcapnhatright img {
+	width: 370px;
+	height: 600px;
+}
+
+.phimdangchieurap  , .phimledangcapnhat , .phimbodangcapnhat , .phimhoathinhdangcapnhat{
+	width: auto;
+	height: auto;
+	margin-bottom: 15px;
+}
+
+.phimdangchieurap div ul  , .phimledangcapnhat div ul  , .phimbodangcapnhat div ul , .phimhoathinhdangcapnhat div ul{
+	list-style: none;
+}
+
+.phimdangchieurap div ul li , .phimledangcapnhat div ul li  , .phimbodangcapnhat div ul li , .phimhoathinhdangcapnhat div ul li {
+	float: left;
+	width: auto;
+	height: auto;
+	margin-right: 1.5%;
+	margin-bottom: 10px;
+}
+
+.phimdangchieurap div ul li  a , .phimledangcapnhat div ul li a  , .phimbodangcapnhat div ul li a , .phimhoathinhdangcapnhat div ul li a {
+	display: block;
+}
+
+.phimdangchieurap div ul li  a img , .phimledangcapnhat div ul li a img  , .phimbodangcapnhat div ul li a img , .phimhoathinhdangcapnhat div ul a img{
+	width: 154px;
+	height: 206px;
+	display: block;
+}
+
+.phimdangchieurap div ul li a div , .phimledangcapnhat div ul li a div , .phimbodangcapnhat div ul li a div , .phimhoathinhdangcapnhat div ul li a div{
+	background: black;
+	color: white;
+	width: 154px;
+	height: 70px;
+}
+
+.asidebar {
+	float: right;
+	width: 320px;
+}
+
+.asidebarquangcao {
+	margin-bottom: 4px;
+}
+
+.asidebarquangcao a {
+	display: block;
+}
+
+.asidebarquangcao a img {
+	height: 600px;
+	width: 100%;
+	display: block;
+}
+
+.asidebarfacebook {
+	background: white;
+	margin-bottom: 25px;
+}
+
+.asidebartrailerphimmoi , .asidebarphimlehottrongtuan , .asidebarphimbohottrongtuan {
+	margin-bottom: 25px;
+}
+
+.asidebartrailerphimmoi div#div-parent , .asidebarphimlehottrongtuan div#div-parent , .asidebarphimbohottrongtuan  div#div-parent{
+	padding: 10px 20px 0px 10px;
+	background: url(bg_trailerphimmoi.gif) repeat;
+}
+
+.asidebartrailerphimmoi div#div-child , .asidebarphimlehottrongtuan div#div-child , .asidebarphimbohottrongtuan div#div-child{
+	width: 100%;
+}
+
+.asidebartrailerphimmoi div ul , .asidebarphimlehottrongtuan div ul , .asidebarphimbohottrongtuan  div ul{
+	list-style: none;
+}
+
+.asidebartrailerphimmoi div ul li  , .asidebarphimlehottrongtuan div ul li , .asidebarphimbohottrongtuan  div ul li{
+	width: 100%;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+	border-bottom: 1px black solid;
+	display: block;
+}
+
+.asidebartrailerphimmoi div ul li a , .asidebarphimlehottrongtuan div ul li a , .asidebarphimbohottrongtuan  div ul li a{
+	display: inline-block;
+	float: left;
+}
+
+.asidebartrailerphimmoi div ul li a img , .asidebarphimlehottrongtuan div ul li a img , .asidebarphimbohottrongtuan div ul li a img {
+	width: 96px;
+	height: 129px;
+	display: block;
+}
+
+.asidebartrailerphimmoi div ul li a#a-img  , .asidebarphimlehottrongtuan div ul li a#a-img , .asidebarphimbohottrongtuan  div ul li a#a-img{
+	border: 2px black solid;
+	margin-right: 10px;
+}
+
+.asidebartrailerphimmoi div ul li a#a-description , .asidebarphimlehottrongtuan div ul li a#a-description , .asidebarphimbohottrongtuan  div ul li a#a-description{
+	width: 175px;
+	height: 101px;
+	border: 2px black solid; /* lát sau bỏ cái này đi */
+}
+
+footer {
+	background: url(micro_carbon.png)
+}
+
+div.footer {
+	width: 1010px;
+	margin: 0px auto;
+	padding: 15px 0px;
+}
+
+div.div-logo {
+	background: url(logo.jpg);
+	width: 260px;
+	height: 55px;
+	float: left;
+	margin-right: 30px;
+	display: inline-block;
+}
+
+div.div-minormenu {
+	margin-right: 20px;
+	display: inline-block;
+}
+
+div.div-minormenu div#menu-phimmoi , div.div-minormenu div#menu-phimle , div.div-minormenu div#menu-phimbo {
+	display: inline-block;
+	margin-right: 50px;
+	float: left;
+}
+
+div.div-minormenu  a {
+	color: white;
+}
+
+div.div-minormenu a:hover {
+	color: yellow;
+}
+
+div.div-contact {
+	display: inline-block;
+	float: right;
+	color: white;
+}
